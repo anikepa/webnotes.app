@@ -1,0 +1,79 @@
+* {
+    font-family: gilroy;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    padding-bottom: 50PX;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #81ecec;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note {
+    height: 200px;
+    width: 40vw;
+    background-color: #fff;
+    margin: 55PX 15px;
+}
+
+.tool {
+    padding: 5px;
+    width: 100%;
+    height: 25px;
+    background-color: black;
+}
+
+.tool i {
+    color: white;
+    cursor: pointer;
+}
+
+.note textarea {
+    font-size: 2vw;
+    padding: 10px;
+    resize: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+.note textarea:focus {
+    border: 0;
+    outline: 0;
+}
+
+#addbtn {
+    position: fixed;
+    right: 10px;
+    top: 5px;
+    font-size: 1VW;
+    background-color: black;
+    color: wheat;
+}
+
+.h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vw;
+    margin: 5px;
+    position: absolute;
+    font-weight: 500;
+}
+
+.h2 {
+    margin-left:5px;
+    font-weight: 400;
+    position: fixed;
+    top: 90%;
+    font-size:2vw;
+}
